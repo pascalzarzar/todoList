@@ -1,0 +1,59 @@
+.Todo {
+    background-color: #f6f2ed;
+    padding: 1em;
+    box-shadow: 0 12px 20px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    border: 1px solid rgba(230,227,227,.5);
+}
+
+.Todo-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Todo-checkBox {
+    margin: 0 1em 0 0;
+}
+
+.Todo-icons {
+    display: flex;
+    align-items: center;
+}
+
+.Todo-icons i {
+    margin-left: 1em;
+}
+
+.Todo-isCompleted {
+    text-decoration: line-through;
+}
+
+.Todo-editForm {
+    display: flex;
+    flex-grow: 1;
+}
+
+.Todo-editForm input {
+    padding: 1em;
+    width: 100%;
+    border: 1px solid rgba(230,227,227,.5);
+    border-radius: 5px;
+}
+
+.Todo-editForm button {
+    margin-left: 1em;
+    background: linear-gradient(225.24deg,#ee0979 .42%,#ff6a00);
+    border: none;
+    padding: 0 1em;
+    color: white;
+    border-radius: 5px;
+}
+
+.Todo-cancelEditButton {
+    margin-left: 0.5em;
+    background:none;
+    border: 2px solid rgba(65, 65, 65, 0.705);
+    border-radius: 5px;
+    color: rgba(65, 65, 65, 0.705);
+}

@@ -1,0 +1,11 @@
+.TodoList {
+    width: 90%;
+    margin: auto;
+    max-width: 900px;
+}
+
+.TodoList-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
